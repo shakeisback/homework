@@ -405,9 +405,7 @@
                 }
                 
                 @media screen and (min-width: 768px) and (max-width: 1024px) {
-                    .container {
-                        max-width: 768px;
-                    }
+                   
                     .global__title {
                         font-size: 22px;
                         line-height: 27px;
@@ -456,6 +454,7 @@
                 .ideas__item {
                     margin: 10px;
                     min-height: 310px;
+                  padding:15px;
                 }
                 
                 .ideas__item.w1-3 {
@@ -549,6 +548,7 @@
                 
                 .search {
                     margin-top: 90px;
+                  msrgin-bottom:100px;
                 }
                 
                 .search__wrap {
@@ -622,7 +622,7 @@
                     height: 2px;
                     background: #FF4E50;
                     border: none;
-                    margin-top: 100px;
+                    
                 }
                 
                 @media screen and (min-width: 320px) and (max-width: 767px) {
